@@ -1,0 +1,58 @@
+
+body{
+    background-color:aliceblue;
+    font-size: 15px;
+}
+
+h{
+    font-size: 30px;
+    color: white;
+    background-color:gray;
+}
+
+label{
+    background-color: cadetblue;
+}
+.row1{
+    height:100px;
+    text-align: center;
+}
+
+#userid, #cdate{
+    width:100px;
+}
+
+input{
+    width:200px;
+}
+#location{
+    width:300px;
+}
+#submit{
+    background-color: blue;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    width:80px;
+    height:40px;
+    border-radius: 20px;
+}
+.column{
+    float:left;
+    height:500px;
+    background-color:#bbb;
+}
+.left{
+    width:30%;
+}
+.middle{
+    width:40%;
+}
+.right{
+    width:30%;
+}
+.row2:after {
+    content: " ";
+    display: table;
+    clear: both;
+}

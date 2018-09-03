@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="/styles/login.css" />
+
+<div class="row1">
+    <h>...Online Garage Sale...</h><br>
+    <h>User login Form</h></div>
+<div class="row2">
+    <div id="row2-col1" class="column left">
+        <div class="left-div"><p>Create New User</p></div>
+        <div class="left-div"><button onClick="window.location.href='/users';" id="createuser">+ Create User</button></div>
+    </div>
+    
+    <div id="row2-col3" class="column middle"></div>
+    
+    
+    <container id="row2-col2" class="column right">
+        <form>
+            <p>Login</p>
+            <div>
+                <input id="userid" type="text" placeholder="Userid" required></input>
+            </div> 
+            <div>
+                <input type="password" id="password" name="password" autocomplete="off" placeholder="Password" required></input>
+            </div>             
+            <div>
+                <button id="login" onclick="window.location.href ='/';">login</input>
+            </div>
+             {{!-- <div>
+                <input type="text" id="message" name="message"></input>
+            </div> --}}
+        </form> 
+    </container> 
+</div>

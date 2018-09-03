@@ -1,0 +1,57 @@
+
+body{
+    background-color:aliceblue;
+    font-size: 30px;
+}
+p{
+    font-size:20px;
+}
+h{
+    color: red;
+}
+.row1{
+    height:100px;
+    text-align: center;
+}
+
+#userid, #cdate{
+    width:100px;
+}
+
+.left-div{
+    margin-left: 10px;
+}
+
+input{
+    width:200px;
+}
+#location{
+    width:300px;
+}
+button {
+    background-color: blue;
+    color:white;
+    font-weight: bold;
+    font-size:15px;
+    border-radius: 10px;
+}
+.column{
+    float:left;
+    height:330px;
+    background-color:#bbb;
+}
+.left{
+    width:30%;
+    text-align: 5px;
+}
+.middle{
+    width:40%;
+}
+.right{
+    width:30%;
+}
+.row2:after {
+    content: " ";
+    display: table;
+    clear: both;
+}

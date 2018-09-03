@@ -1,0 +1,21 @@
+{
+  "name": "online-garage-sale",
+  "version": "1.0.0",
+  "description": "user",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-myconnection": "^1.0.4",
+    "favicon": "0.0.2",
+    "init": "^0.1.2",
+    "mysql": "^2.16.0"
+  }
+}

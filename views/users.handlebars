@@ -1,0 +1,52 @@
+
+<link rel="stylesheet" href="styles/users.css" />
+
+<div class="row1"><h>New User Information</h></div>
+<div class="row2">
+    <div id="row2-col1" class="column left"></div>
+    <container id="row2-col2" class="column middle">
+        <form method="post" action="/users/add">
+
+            <div>
+                <br>
+                <label>UserID:</label><br>
+                <input id="uid" name="uid" readonly value={{uid}}></input>
+            </div>
+            <br>
+            <div>
+                <label>Date:</label><br>
+                <input type="text" id="cdate" name="cdate" readonly value={{userdate}}></input>
+            </div>
+            <br>
+            <div>
+                <label>User Name:</label><br>
+                <input type="text" id="username" name="username" required></input>
+            </div>
+            <br>
+            <div>
+                <label>Password:</label><br>
+                <input type="password" id="password" name="password" required></input>
+            </div>
+            <br>
+            <div>
+                <label>Phone:</label><br>
+                <input type="text" id="phone" name="phone"  required></input>
+            </div>
+            <br>
+            <div>
+                <label>Email:</label><br>
+                <input type="email" id="email" name="email"  required></input>
+            </div>
+            <br>
+            <div>
+                <label>Location</label><br>
+                <input type="text" id="location" name="location"  required></input>
+            </div>
+            <br>
+            <div>
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form> 
+    </container>
+    <div id="row2-col3" class="column right"></div> 
+</div>
